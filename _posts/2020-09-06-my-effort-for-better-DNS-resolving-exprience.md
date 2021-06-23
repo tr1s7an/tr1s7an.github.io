@@ -5,6 +5,8 @@ date:   2020-09-06 14:41:32 +0800
 categories: blog
 ---
 
+*20210623更新：部分内容勘误，另外目前已找到比较理想的解决方案，见新博文*
+
 *前前后后折腾了两三个月了，最后发现，平平淡淡才是真*  
 
 ## 缘起  
@@ -16,11 +18,11 @@ categories: blog
 
 ## 缘中  
 
-第一，即了解各种DNS相关的协议，主要是DNSSEC，DNSCrypt，DNS-over-tls，DNS-over-https  
-DNSSEC，了解不多，貌似只加密（保护隐私），不防篡改，与后面的二者兼顾相比，好像用处不大  
+第一，即了解各种DNS相关的协议，主要是DNSSEC，DNSCrypt，DNS-over-TLS，DNS-over-HTTPS  
+DNSSEC，了解不多，貌似只防篡改，无法加密（保护隐私），更多用于权威DNS服务器上，与后面的相比，好像用处不大  
 DNSCrypt，挺好，但没有发展为国际标准  
 DoT，DoH已有RFC标准，发展比较成熟  
-（最近了解到还有DNS-over-quic，有点意思）  
+（最近了解到还有DNS-over-QUIC，有点意思）  
 
 然后就是公共DNS服务器，我个人的要求，大厂出品，国内的看延迟，国外的看延迟和对国内CDN的友好程度（准确度）。  
 比较全的列表：[来自DNSCrypt](https://dnscrypt.info/public-servers)，[来自cURL](https://github.com/curl/curl/wiki/DNS-over-HTTPS#publicly-available-servers)  
