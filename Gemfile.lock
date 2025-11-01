@@ -79,10 +79,7 @@ PLATFORMS
   x86_64-linux-gnu
 
 DEPENDENCIES
-<<<<<<< Updated upstream
-=======
   base64
->>>>>>> Stashed changes
   csv
   jekyll (~> 4.3.0)
   jekyll-feed (~> 0.12)
